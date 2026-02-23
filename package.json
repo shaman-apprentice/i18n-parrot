@@ -1,0 +1,44 @@
+{
+  "name": "@shaman-apprentice/i18n-parrot",
+  "version": "1.0.0",
+  "description": "Sync i18n files from one source language to all existing languages",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "bin": {
+    "i18n-parrot": "./bin/index.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "prepublishOnly": "npm run test"
+  },
+  "keywords": [
+    "i18n",
+    "sync",
+    "automation"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaman-apprentice/i18n-parrot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shaman-apprentice/i18n-parrot/issues"
+  },
+  "homepage": "https://github.com/shaman-apprentice/i18n-parrot#readme",
+  "engines": {
+    "node": ">=24"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
