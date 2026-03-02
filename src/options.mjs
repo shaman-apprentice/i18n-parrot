@@ -24,7 +24,7 @@ export const OptionsDefinition = {
 export function printHelp() {
   const lines = [];
   lines.push('Usage: i18n-parrot [options]');
-  lines.push('Example: npx i18n-parrot -f ./i18n -s en');
+  lines.push('Example: npx i18n-parrot -f ./i18n -s en.json');
   lines.push('Options:');
 
   // Build parts and compute padding so columns align nicely
