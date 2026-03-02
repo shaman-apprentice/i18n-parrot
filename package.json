@@ -40,5 +40,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@shaman-apprentice/release-parrot": "^1.1.1"
   }
 }
