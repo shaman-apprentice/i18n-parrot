@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { parseArgs } from "node:util";
 import { OptionsDefinition, printHelp } from "../src/options.mjs";
 import { syncI18n } from "../src/index.mjs";
