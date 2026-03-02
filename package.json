@@ -1,6 +1,6 @@
 {
   "name": "@shaman-apprentice/i18n-parrot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sync i18n files from one source language to all existing languages",
   "type": "module",
   "main": "./src/index.mjs",
